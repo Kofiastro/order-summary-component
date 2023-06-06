@@ -541,6 +541,16 @@ video {
   margin-bottom: 4rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -651,6 +661,14 @@ video {
   background-color: hsl(225 100% 98% / 0.3);
 }
 
+.bg-Bright_blue\/50 {
+  background-color: hsl(245 75% 52% / 0.5);
+}
+
+.bg-Very_pale\/100 {
+  background-color: hsl(225 100% 98% / 1);
+}
+
 .bg-BackMobile {
   background-image: url('../images/pattern-background-mobile.svg');
 }
@@ -681,6 +699,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .text-center {
@@ -834,6 +856,16 @@ video {
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:text-xl {
