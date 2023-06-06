@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <!--Google FOnts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
 
-  Order Summary
+<body class="bg-Very_pale">
+  <main class="md:bg-BackDesktop bg-BackMobile bg-no-repeat bg-contain bg-top">
+    <!--Container-->
+    <div class="flex items-center h-screen justify-center ">
+      <!--Card-->
+      <div class="mx-6 my-16 bg-white shadow-xl rounded-2xl md:max-w-md">
+        <!--Flex Container-->
+        <div class="flex flex-col item-center ">
+          <!--Image-->
+          <img src="./images/illustration-hero.svg" class="rounded-t-2xl" alt="card_image" />
+          <!--Content-->
+          <div class="font-Red_Hat flex flex-col items-center m-8 space-y-4">
+            <h1 class=" text-center font-semibold text-3xl text-Dark_blue md:px-12">Order Summary</h1>
+            <p class=" text-sm tracking-wide font-medium text-center max-w-md  text-Desaturated md:px-18 md:text-lg">
+              You can now listen to millions of songs, audiobooks, and podcasts on any
+              device anywhere you like!
+            </p>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+          </div>
+          <!--Pricing Plan-->
+          <div
+            class=" inline-flex text-base items-center bg-Very_pale mx-8 p-4 mb-6 justify-between rounded-2xl max-w-md">
+            <!--music icon-->
+            <div class="flex space-x-4">
+              <img src="./images/icon-music.svg" alt="music_icon">
+              <div class="font-Red_Hat space-y-1">
+                <h1 class="text-sm font-bold text-Dark_blue">Annual Plan
+                </h1>
+                <p class="text-sm text-Desaturated">$59.99/year</p>
+              </div>
+            </div>
+            <!--Pricing-->
+            <div>
+              <a href="" class="font-Red_Hat text-sm text-Bright_blue underline underline-offset-1">
+                <p class="hover:text-Bright_blue/40 ">Change</p>
+              </a>
+            </div>
+          </div>
+          <!--Buttons-->
+          <button
+            class="font-Red_Hat tracking-wide font-semibold shadow-xl shadow-Bright_blue/20 text-sm bg-Bright_blue text-center text-white p-4 mx-8  max-w-md rounded-xl hover:bg-Bright_blue/40">
+            <p>Proceed to Payment</p>
+          </button>
+          <div class="p-4 mx-8 mb-6 max-w-md font-semibold text-sm text-center  ">
+            <a href="" class="font-Red_Hat tracking-wide text-Desaturated">
+              <p class="hover:text-Dark_blue">Cancel Order
+              </p>
+            </a>
+          </div>
 
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-cream font-Red_Hat text-xs text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-blue-500" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a href="https://github.com/Kofiastro/" class="text-blue-500" target="_blank">Kofi Danso Amakye </a>.
+  </footer>
 </body>
+
 </html>
