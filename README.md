@@ -20,8 +20,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [(https://github.com/Kofiastro/results-Components-Project)]
-- Live Site URL:[(https://vermillion-stardust-00e266.netlify.app/)]
+- Solution URL: [(https://github.com/Kofiastro/order-summary-component)]
+- Live Site URL:[(https://sensational-tiramisu-f6a9b0.netlify.app/)]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
