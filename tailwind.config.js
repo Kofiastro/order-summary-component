@@ -16,6 +16,7 @@ module.exports = {
         Very_pale: 'hsl(225, 100%, 98%)',
         Desaturated:'hsl(224, 23%, 55%)',
         Dark_blue:'hsl(223, 47%, 23%)',
+        Backgrnd:'hsl(225, 100%, 94%)',
       }
     },
   },
